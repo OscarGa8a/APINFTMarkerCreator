@@ -1,0 +1,20 @@
+{
+  "name": "apinftmarkercreator",
+  "version": "1.0.0",
+  "description": "API para la Creacion de Marcadores NFT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server"
+  },
+  "author": "Oscar Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
